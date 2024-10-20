@@ -1,10 +1,10 @@
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './assets/App.css';
-import AboutSection from './components/About';
-import HeroSection from './components/Home';
-import NavBarSection from './components/NavBar';
-import SkillsSection from './components/Skills';
-import Contact from './Components/Contact';
+import AboutSection from './Components/About.jsx';
+import HeroSection from './components/Home.jsx';
+import NavBarSection from './components/NavBar.jsx';
+import SkillsSection from './components/Skills.jsx';
+import Contact from './Components/Contact.jsx';
 
 
 function App() {
