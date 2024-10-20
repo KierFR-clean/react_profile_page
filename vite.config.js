@@ -12,7 +12,8 @@ export default defineConfig({
       include: [/bootstrap/, /node_modules/]
     },
     rollupOptions: {
-      external: ['sweetalert']
+      // Remove 'sweetalert' from external
+      external: []
     }
   }
 });
