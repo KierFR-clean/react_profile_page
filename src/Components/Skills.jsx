@@ -1,15 +1,15 @@
 function Skills() {
     return (
       <>
-        <div class="container px-4 py-5" id="hanging-icons  col-lg-6 mx-auto text-center" >
-          <h1 class="text-center display-6 fw-bold text-body-emphasis lh-1 mb-3">
+        <div className="container px-4 py-5" id="hanging-icons  col-lg-6 mx-auto text-center" >
+          <h1 className="text-center display-6 fw-bold text-body-emphasis lh-1 mb-3">
             My Skills
           </h1>
-          <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-            <div class="col d-flex align-items-start">
-              <div class="rounded icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+          <div className="row g-4 py-5 row-cols-1 row-cols-lg-3">
+            <div className="col d-flex align-items-start">
+              <div className="rounded icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
                 <svg
-                  class="m-2 bi"
+                  className="m-2 bi"
                   width="1.5em"
                   height="1.5em"
                   viewBox="0 0 24 24"
@@ -36,19 +36,19 @@ function Skills() {
                 </svg>
               </div>
               <div>
-                <h3 class="fs-2 text-body-emphasis">Data Science</h3>
+                <h3 className="fs-2 text-body-emphasis">Data Science</h3>
                 <p>Programming Languages</p>
-                <ul className="list-unstyled mb-0 fw-bold text-body-secondary text-center">
+                <ul classNameName="list-unstyled mb-0 fw-bold text-body-secondary text-center">
                   <li>NoSQL</li>
                   <li>Python</li>
           
                 </ul>
               </div>
             </div>
-            <div class="col d-flex align-items-start">
-              <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <div className="col d-flex align-items-start">
+              <div className="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
                 <svg
-                  class="m-2 bi"
+                  className="m-2 bi"
                   width="1.5em"
                   height="1.5em"
                   viewBox="0 0 16 16"
@@ -79,9 +79,9 @@ function Skills() {
                 </svg>
               </div>
               <div>
-                <h3 class="fs-2 text-body-emphasis">FrontEnd</h3>
+                <h3 className="fs-2 text-body-emphasis">FrontEnd</h3>
                 <p>Programming Languages</p>
-                <ul className="list-unstyled mb-0 fw-bold text-body-secondary text-center">
+                <ul classNameName="list-unstyled mb-0 fw-bold text-body-secondary text-center">
                   <li>HTML</li>
                   <li>CSS</li>
                   <li>JS</li>
@@ -89,10 +89,10 @@ function Skills() {
                 </ul>
               </div>
             </div>
-            <div class="col d-flex align-items-start">
-              <div class="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
+            <div className="col d-flex align-items-start">
+              <div className="icon-square text-body-emphasis d-inline-flex align-items-center justify-content-center fs-4 flex-shrink-0 me-3">
                 <svg
-                  class="m-2 bi"
+                  className="m-2 bi"
                   width="1.5em"
                   height="1.5em"
                   viewBox="0 0 24 24"
@@ -117,9 +117,9 @@ function Skills() {
                 </svg>{" "}
               </div>
               <div>
-                <h3 class="fs-2 text-body-emphasis">Backend</h3>
+                <h3 className="fs-2 text-body-emphasis">Backend</h3>
                 <p>Programming Languages</p>
-                <ul className="list-unstyled mb-0 fw-bold text-body-secondary text-center">
+                <ul classNameName="list-unstyled mb-0 fw-bold text-body-secondary text-center">
                   <li>Python</li>
                   <li>Ruby</li>
                   <li>PHP</li>
