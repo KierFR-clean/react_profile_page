@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import swal from 'sweetalert';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import '../assets/App.css'; // We'll create this CSS file for custom styles
 
 const SubmissionSuccess = ({ formData }) => (
