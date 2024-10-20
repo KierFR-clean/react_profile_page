@@ -1,4 +1,4 @@
-import profile from "../assets/img/sampleProfile.jpg";
+import profile from "../src/assets/img/sampleProfile.jpg";
 function Home() {
     return (
         <>  

@@ -2,8 +2,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import './assets/App.css';
 import AboutSection from './Components/About.jsx';
 import HeroSection from './Home.jsx';
-import NavBarSection from './components/NavBar.jsx';
-import SkillsSection from './components/Skills.jsx';
+import NavBarSection from './Components/NavBar.jsx';
+import SkillsSection from './Components/Skills.jsx';
 import Contact from './Components/Contact.jsx';
 
 
